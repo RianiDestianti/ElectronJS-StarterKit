@@ -1,0 +1,12 @@
+appId: com.example.electronskeleton
+productName: Electron Skeleton
+directories:
+  output: dist
+files:
+  - out/**/*
+win:
+  target: nsis
+mac:
+  target: dmg
+linux:
+  target: AppImage

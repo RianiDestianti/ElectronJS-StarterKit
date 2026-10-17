@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# build output
+out
+dist
+release
+*.tsbuildinfo
+
+# logs
+*.log
+
+# env files & secrets
+.env
+.env.*
+secrets
+*.pem
+*.key
+*.p12
+*.pfx
+
+.DS_Store
+.idea
